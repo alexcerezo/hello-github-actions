@@ -97,15 +97,15 @@ jobs:
             step_number: 3
             passed: ${{ !contains(steps.*.outcome, 'failure') }}
             results_table:
-              - description: "Workflow file syntax validation"
+              - description: "Validación de sintaxis del archivo de workflow"
                 passed: ${{ steps.actionlint-check.outcome == 'success' }}
-              - description: "Added steps section to welcome job"
+              - description: "Añadida la sección steps al job welcome"
                 passed: ${{ steps.check-steps-section.outcome == 'success' }}
-              - description: "Added gh pr comment command"
+              - description: "Añadido el comando gh pr comment"
                 passed: ${{ steps.check-gh-pr-comment.outcome == 'success' }}
-              - description: "Set GITHUB_TOKEN environment variable"
+              - description: "Establecida la variable de entorno GITHUB_TOKEN"
                 passed: ${{ steps.check-github-token.outcome == 'success' }}
-              - description: "Set PR_URL environment variable"
+              - description: "Establecida la variable de entorno PR_URL"
                 passed: ${{ steps.check-pr-url.outcome == 'success' }}
 
       - name: Create comment - step results

@@ -78,11 +78,11 @@ jobs:
             step_number: 2
             passed: ${{ !contains(steps.*.outcome, 'failure') }}
             results_table:
-              - description: "Added jobs section to workflow file"
+              - description: "Añadida la sección jobs al archivo del workflow"
                 passed: ${{ steps.check-jobs-section.outcome == 'success' }}
-              - description: "Created welcome job"
+              - description: "Creado el job welcome"
                 passed: ${{ steps.check-welcome-job.outcome == 'success' }}
-              - description: "Set runs-on to ubuntu-latest"
+              - description: "Establecido runs-on a ubuntu-latest"
                 passed: ${{ steps.check-runs-on.outcome == 'success' }}
 
       - name: Create comment - step results

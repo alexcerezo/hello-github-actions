@@ -94,15 +94,15 @@ jobs:
             step_number: 1
             passed: ${{ !contains(steps.*.outcome, 'failure') }}
             results_table:
-              - description: "Created welcome.yml file in .github/workflows directory"
+              - description: "Creado el archivo welcome.yml en el directorio .github/workflows"
                 passed: ${{ steps.check-file-exists.outcome == 'success' }}
-              - description: "Added a workflow name field"
+              - description: "Añadido el campo name al workflow"
                 passed: ${{ steps.check-workflow-name.outcome == 'success' }}
-              - description: "Configured pull_request event trigger"
+              - description: "Configurado el evento pull_request como trigger"
                 passed: ${{ steps.check-pull-request-event.outcome == 'success' }}
-              - description: "Set types filter for pull_request event"
+              - description: "Establecido el filtro types para el evento pull_request"
                 passed: ${{ steps.check-opened-type.outcome == 'success' }}
-              - description: "Added pull-requests: write permission"
+              - description: "Añadido el permiso pull-requests: write"
                 passed: ${{ steps.check-permissions.outcome == 'success' }}
 
       - name: Create comment - step results
