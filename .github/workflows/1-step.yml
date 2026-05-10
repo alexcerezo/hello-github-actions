@@ -149,7 +149,6 @@ jobs:
         with:
           repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
-          ref: v0.6.0
 
       - name: Create comment - add step content
         run: |
