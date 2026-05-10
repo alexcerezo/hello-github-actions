@@ -16,7 +16,7 @@ env:
 jobs:
   start_exercise:
     name: Start Exercise
-    uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.8.1
+    uses: alexcerezo/exercise-toolkit/.github/workflows/start-exercise.yml@v0.8.1
     with:
       exercise-title: "Hello GitHub Actions"
       intro-message: "Create and run a GitHub Actions workflow."
@@ -37,7 +37,7 @@ jobs:
       - name: Get response templates
         uses: actions/checkout@v4
         with:
-          repository: skills/exercise-toolkit
+          repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
           ref: v0.6.0
 
