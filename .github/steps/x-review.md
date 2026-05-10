@@ -1,19 +1,11 @@
-## Finish
+## Finiquitado
 
-_Congratulations friend, you've completed this exercise!_
+_¡Felicidades, ¡has completado elejercicio!_
 
 <img src="https://octodex.github.com/images/jetpacktocat.png" alt="Mona the Octocat wearing a jetpack and smiling." width="300" align="right"/>
 
-Here's a recap of all the tasks you've accomplished in your repository:
+Aquí hay un resumen de todas las tareas que has completado en tu repositorio:
 
-1. You've created your first GitHub Actions workflow file.
-1. You learned where to make your workflow file.
-1. You defined an event trigger, a job, and a step for your workflow.
-1. You're ready to automate anything you can dream of.
-
-### What's next?
-
-- Take another exercise on [GitHub Learn](https://learn.github.com/skills)
-  - Take the [AI in Actions](https://github.com/skills/ai-in-actions) exercise to learn how to leverage AI models within your GitHub Actions workflows
-- [Learn more about GitHub Actions](https://docs.github.com/actions/)
-- [Awesome Actions](https://github.com/sdras/awesome-actions)
+1. Has creado tu primer workflow de GitHub Actions.
+1. Definiste un event trigger, un job y un step para tu workflow.
+1. Estás listo para automatizar cualquier cosa que puedas soñar.

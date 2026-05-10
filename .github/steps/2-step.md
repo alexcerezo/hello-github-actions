@@ -1,21 +1,12 @@
-## Step 2: Add a job to your workflow file
+## Paso 2: Añade un job a tu workflow
 
-Nice work! :tada: You added a workflow file!
+Buen trabajo! :tada: Has creado tu primer workflow!
 
-### 📖 Theory: Introduction to jobs
+### ⌨️ Actividad: Añade un job a tu workflow
 
-A [job](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions#jobs) is a group of steps that run together on the same [runner](https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners) within a workflow. Each job is defined under the `jobs` section and runs independently and in parallel by default.
+1. De nuevo en la rama `welcome-workflow`, abre el archivo`.github/workflows/welcome.yml`.
 
-Jobs help you organize your workflow into logical units, such as building, testing, or deploying your code.
-
-> [!Tip]
-> You can define a job to run with multiple [variations using a matrix strategy](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/running-variations-of-jobs-in-a-workflow).
-
-### ⌨️ Activity: Add a job to your workflow file
-
-1. In the `welcome-workflow` branch, open your `.github/workflows/welcome.yml` file.
-
-1. Edit the file to add the `jobs` section and 1 job named `welcome`, which will run on the latest Ubuntu operating system.
+1. Edita el archivo para añadir la sección `jobs`y un job llamado `welcome`, que ejecutará la ultima versión de Ubuntu.
 
    ```yaml
    name: Post welcome comment
@@ -30,14 +21,14 @@ Jobs help you organize your workflow into logical units, such as building, testi
        runs-on: ubuntu-latest
    ```
 
-1. Commit your changes to the `welcome-workflow` branch.
+1. Haz commit de tus cambios a la rama `welcome-workflow`.
 
-1. With the job information added, Mona will review your work and prepare the next step in this exercise!
+1. Con la información del job añadida, Mona verificará tu trabajo y preparará el siguiente paso del workshop!
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>Tienes problemas? 🤷</summary><br/>
 
-- Make sure the `jobs` section is properly indented in your YAML file.
-- Confirm you are editing the correct file and branch.
+- Asegúrate de que la seccion `jobs` tiene bien la indentación.
+- Verifica que has modificado la rama y archivos correctos.
 
 </details>

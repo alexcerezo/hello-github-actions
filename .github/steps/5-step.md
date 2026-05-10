@@ -1,19 +1,10 @@
-## Step 5: Merge and experiment
+## Step 5: Fusiona y experimenta
 
-_Great job! You have created and tested your first GitHub Actions workflow!_ :rocket:
+_¡Excelente trabajo! ¡Has creado y probado tu primer workflow de GitHub Actions!_ :rocket:
 
-### 📖 Theory: When workflows run
+### ⌨️ Actividad: Fusiona tu pull request
 
-When you create a workflow in a branch, it is only enabled for that branch until you merge it into the default branch (`main`). When a workflow is in the default branch it applies to the entire repository.
+1. Haz merge a tu pull request en la rama `main`.
 
-Every new pull request regardless of branch will now automatically trigger the workflow you created.
-
-> [!TIP]
-> Some event triggers, like [workflow_dispatch](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#workflow_dispatch) and [schedule](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule) will only work if the workflow file exists in default branch. 
-
-### ⌨️ Activity: Merging your pull request
-
-1. Merge your pull request into the `main` branch.
-
-1. (Optional) Try opening another pull request to see your workflow run again!
+1. (Opcional) ¡Intenta abrir otra pull request para ver tu workflow ejecutarse de nuevo!
 

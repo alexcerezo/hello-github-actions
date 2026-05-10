@@ -1,42 +1,33 @@
-## Step 4: Trigger the workflow
+## Paso 4: Activa el workflow
 
-_You've now added a fully functioning workflow to your repository! :smile:_
+_¡Ahora has creado un workflow completamente funcional a tu repositorio! :smile:_
 
-### 📖 Theory: Seeing your workflow in action
+### ⌨️ Actividad: Activa el workflow
 
-All the running and finished workflows can be seen on the **Actions** tab of your repository.
+1. En la pestaña **Pull requests**, crea una pull request desde la rama `welcome-workflow` hacia `main`.
 
-Because you set the workflow to run on the `pull_request` event, it will automatically trigger when a pull request is opened.
+1. Observa el comentario que el workflow añade a la pull request.
 
-> [!TIP]
-> Workflow associated to pull request can also be seen on the pull request log near the merge button. You can even [create a rule](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets#require-status-checks-to-pass-before-merging) that prevents merging if the workflow fails! 
+1. Observa el área cerca del botón de merge que dice "All checks have passed".
 
-### ⌨️ Activity: Trigger the workflow
+1. ¡Con la pull request creada y nuestro workflow activado, Mona preparará el siguiente paso del ejercicio!
 
-1. In the **Pull requests** tab, create a pull request from `welcome-workflow` branch into `main`.
+### ⌨️ Actividad: (opcional) Inspecciona el workflow
 
-1. Notice the comment that the workflow adds to the pull request.
+1. En la parte superior del repositorio, selecciona la pestaña **Actions**.
 
-1. Notice the area near the merge button that "All checks have passed".
+1. En la barra lateral izquierda, selecciona el workflow llamado **Post welcome comment**.
 
-1. With the pull request created and our workflow triggered, Mona will prepare the next step in this exercise!
+    > 💡 **Consejo:** Puedes ignorar las otras actions. Esas fueron para crear este ejercicio.
 
-### ⌨️ Activity: (optional) Inspect the workflow
+1. Haz clic en la primera entrada de ejecución titulada **Welcome workflow** para mostrar un diagrama de los jobs de la ejecución.
 
-1. At the top of the repository, select the **Actions** tab.
-
-1. In the left sidebar, select the workflow named **Post welcome comment**.
-
-    > 💡 **Tip:** You can ignore the other actions. Those were for teaching this exercise.
-
-1. Click the first run entry titled **Welcome workflow** to show a diagram of the run's jobs.
-
-1. Click on the job named **Post welcome comment** to see the full logs.
+1. Haz clic en el job llamado **Post welcome comment** para ver los logs completos.
 
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>¿Tienes problemas? 🤷</summary><br/>
 
-- Check the **Actions** tab for workflow run details and errors.
+- Verifica la pestaña **Actions** para detalles de ejecución del workflow y errores.
 
 </details>

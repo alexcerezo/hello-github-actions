@@ -1,19 +1,12 @@
-## Step 3: Add a step to your workflow file
+## Paso 3: Agrega un step a tu archivo workflow
 
-_Nice work adding a job to your workflow! :dancer:_
+_¡Buen trabajo agregando un job a tu workflow! :dancer:_
 
-### 📖 Theory: Introduction to steps in jobs
+### ⌨️ Actividad: Agrega un step a tu archivo workflow
 
-[Steps](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps) are the building blocks of jobs, allowing you to automate tasks like checking out code, running commands, or using open source Actions. They run sequentially in the job's environment but as independent processes. Unlike traditional code with a shared variable space, [inputs](https://docs.github.com/en/actions/sharing-automations/creating-actions/metadata-syntax-for-github-actions#inputs) and [outputs](https://docs.github.com/en/actions/sharing-automations/creating-actions/metadata-syntax-for-github-actions#outputs-for-docker-container-and-javascript-actions) must be explicitly declared.
+1. En la rama `welcome-workflow`, abre tu archivo `.github/workflows/welcome.yml`.
 
-> [!TIP]
-> The best part of GitHub Actions is the [marketplace](https://github.com/marketplace?type=actions) where the community has already built many free useful tools to [find and customize](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/using-pre-written-building-blocks-in-your-workflow)!
-
-### ⌨️ Activity: Add a step to your workflow file
-
-1. In the `welcome-workflow` branch, open your `.github/workflows/welcome.yml` file.
-
-1. Add a step to the `welcome` job to post a comment on new pull requests using GitHub CLI:
+1. Agrega un step al job `welcome` para publicar un comentario en nuevas pull requests usando GitHub CLI:
 
    ```yaml
    name: Post welcome comment
@@ -33,14 +26,14 @@ _Nice work adding a job to your workflow! :dancer:_
              PR_URL: ${{ github.event.pull_request.html_url }}
    ```
 
-1. Commit your changes directly to `welcome-workflow` branch.
+1. Haz commit de tus cambios directamente a la rama `welcome-workflow`.
 
-1. With the step information added, Mona will review your work and prepare the next step in this exercise!
+1. ¡Con la información del step agregada, Mona revisará tu trabajo y preparará el siguiente paso del ejercicio!
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>¿Tienes problemas? 🤷</summary><br/>
 
-- Make sure the `steps` section is under the `welcome` job and properly indented.
-- Ensure you have the correct environment variables set.
+- Asegúrate de que la sección `steps` esté bajo el job `welcome` e indentada correctamente.
+- Verifica que tengas las variables de entorno correctas configuradas.
 
 </details>
