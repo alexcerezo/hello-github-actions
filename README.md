@@ -1,4 +1,4 @@
-# Hola GitHub Actions
+# Hello GitHub Actions
 
 _Crea y ejecuta un workflow de GitHub Actions._
 

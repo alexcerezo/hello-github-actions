@@ -1,6 +1,6 @@
 ## Finiquitado
 
-_¡Felicidades, ¡has completado elejercicio!_
+_¡Felicidades, ¡has completado el ejercicio!_
 
 <img src="https://octodex.github.com/images/jetpacktocat.png" alt="Mona the Octocat wearing a jetpack and smiling." width="300" align="right"/>
 
