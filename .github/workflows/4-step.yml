@@ -35,6 +35,7 @@ jobs:
         with:
           repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
+          ref: main
 
 
       - name: Create comment - add step content

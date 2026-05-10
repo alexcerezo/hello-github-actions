@@ -36,6 +36,7 @@ jobs:
         with:
           repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
+          ref: main
 
       - name: Update comment - checking work
         run: |
@@ -48,7 +49,7 @@ jobs:
       - name: Check if welcome.yml file exists
         id: check-file-exists
         continue-on-error: true
-        uses: alexcerezo/exercise-toolkit/actions/file-exists@v0.6.0
+        uses: alexcerezo/exercise-toolkit/actions/file-exists@main
         with:
           file: .github/workflows/welcome.yml
 
@@ -149,6 +150,7 @@ jobs:
         with:
           repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
+          ref: main
 
       - name: Create comment - add step content
         run: |

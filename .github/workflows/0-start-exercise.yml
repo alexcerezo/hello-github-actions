@@ -39,6 +39,7 @@ jobs:
         with:
           repository: alexcerezo/exercise-toolkit
           path: exercise-toolkit
+          ref: main
 
       - name: Build comment - add step content
         id: build-comment
