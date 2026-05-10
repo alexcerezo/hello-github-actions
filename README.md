@@ -18,7 +18,7 @@ En este ejercicio llevarás a cabo las siguientes tareas:
 
 Simplemente copia el ejercicio a tu cuenta, luego dale a Mona **aproximadamente 20 segundos** para preparar la primera lección, luego **actualiza la página**.
 
-[![](https://img.shields.io/badge/Copiar%20Ejercicio-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=hello-github-actions&owner=%40me&name=skills-hello-github-actions&description=Exercise:+Create+and+run+a+GitHub+Actions+Workflow&visibility=public)
+[![](https://img.shields.io/badge/Copiar%20Ejercicio-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=alexcerezo&template_name=hello-github-actions&owner=%40me&name=skills-hello-github-actions&description=Exercise:+Create+and+run+a+GitHub+Actions+Workflow&visibility=public)
 
 <details>
 <summary>¿Tienes problemas? 🤷</summary><br/>
