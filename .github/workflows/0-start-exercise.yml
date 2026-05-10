@@ -16,7 +16,7 @@ env:
 jobs:
   start_exercise:
     name: Start Exercise
-    uses: alexcerezo/exercise-toolkit/.github/workflows/start-exercise.yml@latest
+    uses: alexcerezo/exercise-toolkit/.github/workflows/start-exercise.yml@main
     with:
       exercise-title: "Hello GitHub Actions"
       intro-message: "Crea y ejecuta un workflow de GitHub Actions."
